@@ -6,7 +6,7 @@ Feature: User is able to convert area units
     And I see "Sq Metre" in To header
 
 
-  Scenario:
+  Scenario: User is able to swap values
     Given I click on Got it button
     And I see "Sq Kilometre" in Form header
     And I see "Sq Metre" in To header
